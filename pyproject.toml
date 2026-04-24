@@ -29,8 +29,7 @@ repository = "https://github.com/novalis-226/nomad_distro_jn"
 # Add your plugins to the list below.
 plugins = [
  "nomad-north-jupyter>=0.2.5",
-  "nomad-hysprint @ git+https://github.com/nomad-hzb/nomad-hysprint.git@69c4d1e",
-  "nomad-baseclasses @ git+https://github.com/nomad-hzb/nomad-baseclasses.git@6fb5775"
+  "nomad-hysprint @ git+https://github.com/nomad-hzb/nomad-hysprint.git@69c4d1e"
 ]
 
 jupyter = ["jupyter-events"]
