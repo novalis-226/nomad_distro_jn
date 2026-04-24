@@ -1,5 +1,5 @@
 services:
-  api_host: "localhost"
+  api_host: "http://172.22.116.51"
   api_base_path: "/nomad-oasis"
 
 oasis:
