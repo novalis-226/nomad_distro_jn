@@ -3098,7 +3098,7 @@ plugins = [
 [package.metadata]
 requires-dist = [
     { name = "jupyter-events", marker = "extra == 'jupyter'" },
-    { name = "nomad-hysprint", marker = "extra == 'plugins'", git = "https://github.com/nomad-hzb/nomad-hysprint.git?rev=69c4d1e" },
+    { name = "nomad-hysprint", marker = "extra == 'plugins'", git = "https://github.com/nomad-hzb/nomad-hysprint.git?rev=c5a3b22" },
     { name = "nomad-lab", extras = ["dev", "infrastructure"], marker = "extra == 'dev'", specifier = "==1.4.2" },
     { name = "nomad-lab", extras = ["infrastructure"], specifier = "==1.4.2" },
     { name = "nomad-north-jupyter", marker = "extra == 'plugins'", specifier = ">=0.2.5" },
@@ -3108,7 +3108,7 @@ provides-extras = ["plugins", "jupyter", "gpu-action", "cpu-action", "dev"]
 [[package]]
 name = "nomad-hysprint"
 version = "1.0.0"
-source = { git = "https://github.com/nomad-hzb/nomad-hysprint.git?rev=69c4d1e#69c4d1e53e9502ec8973c0ec729abb0d42fe14f4" }
+source = { git = "https://github.com/nomad-hzb/nomad-hysprint.git?rev=c5a3b22#c5a3b22cf87ee35ce6b98ae117db5f3a53dfa903" }
 dependencies = [
     { name = "httpx" },
     { name = "nomad-baseclasses" },
